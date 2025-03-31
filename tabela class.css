@@ -1,0 +1,109 @@
+/* Fonte principal */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Borda principal da tabela */
+table, th, td {
+    border: 1px solid #DDDDDD;
+}
+
+/* Estilo para as células de valores específicos */
+td:nth-child(3), td:nth-child(5), td:nth-child(6), td:nth-child(7), td:nth-child(9) {
+    background-color: #F7F7F7;
+}
+
+/* Formatação de títulos de colunas */
+th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo das posições de classificação */
+td:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td:nth-child(1):nth-child(1) {
+    background-color: #003366; /* Azul-marinho */
+    color: white;
+}
+
+td:nth-child(1):nth-child(2) {
+    background-color: #1398BE; /* Azul-celeste */
+    color: white;
+}
+
+td:nth-child(1):nth-child(3) {
+    background-color: #DE9800; /* Laranja */
+    color: white;
+}
+
+td:nth-child(1):nth-child(4) {
+    background-color: #CCCCCC; /* Cinza */
+    color: white;
+}
+
+td:nth-child(1):nth-child(5) {
+    background-color: #C91B04; /* Vermelho */
+    color: white;
+}
+
+/* Formatação para os nomes dos times */
+td:nth-child(2) {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Formatação dos pontos dos times */
+td:nth-child(3) {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Formatação das demais colunas de classificação */
+td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7), td:nth-child(8) {
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* Formatação para as legendas das áreas de classificação */
+td.legend {
+    font-size: 10px;
+    color: #8F8F8F;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* Formatação das legendas (siglas e significados) */
+td.sigla, td.significado {
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Estilo para as bordas entre as linhas */
+tr:nth-child(4) td, tr:nth-child(5) td {
+    border-bottom: 2px solid #CCCCCC; /* Entre o 4° e 5° lugar */
+}
+
+tr:nth-child(16) td, tr:nth-child(17) td {
+    border-bottom: 2px solid #CCCCCC; /* Entre o 16° e 17° lugar */
+}
